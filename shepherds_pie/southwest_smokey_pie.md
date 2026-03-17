@@ -1,6 +1,6 @@
 # The "Southwest" Smokey Pie.
 
-<img src="/_pics/smokey_shep_pie.jpg" alt="Southwest Smokey Pie" align="center" width="25%" align="left"/>
+<img src="/_pics/smokey_shep_pie.jpg" alt="Southwest Smokey Pie" align="left" width="25%" align="left"/>
 
 Earthy, smoky, and slightly sweet with a cheesy crust.
 
