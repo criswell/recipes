@@ -1,6 +1,6 @@
 # Roasted Garlic
 
-Simply ingredient to make that can really elevate just about any dish.
+Simple ingredient to make that can really elevate just about any dish.
 
 ## Ingredients
 
