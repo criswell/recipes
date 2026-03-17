@@ -32,6 +32,12 @@ Sometimes you just want a grilled cheese sandwich- BUT FANCY!
 
 - [Short-rib Grilled Cheese, rainbow carrot fries, and three dipping sauces.](grilled_cheese/short_rib_grilled_cheese.md)
 
+### [Quickies](quickies/README.md)
+
+These are simple cooking instructions for some of the ingredients in these recipes.
+
+- [Roasted Garlic](quickies/roasted_garlic.md)
+
 ### [Salmon Dishes](salmon/README.md)
 
 My dad's favorite fish, blasted by the Spice Weasle- BAM!
