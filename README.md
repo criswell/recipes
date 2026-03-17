@@ -10,6 +10,8 @@ I have built inventory management in PASCAL, built custom Linux distributions,
 worked at the Linux Foundation, built testing frameworks, and written code
 supporting data scientists and machine learning engineers.
 
+I also have a couple of youtube channels where I do stupid things.
+
 I'm now in my 50s, and going through a mid-life crisis.
 
 My mid-life crisis has been learning to cook fancy. 
