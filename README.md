@@ -1,6 +1,8 @@
-= Amazing Criswell's Mid-life Crisis Recipes
+* Amazing Criswell's Mid-life Crisis Recipes
 
-<html align="left" width="30%" src="/_pics/amazing_criswell.jpg">
+<p align="right">
+    <img alt="Criswell Being a Doofus" width="30%" src="/_pics/amazing_criswell.jpg">
+</p>
 
 I'm Criswell. I have worked in the tech industry since 1989. I'm now in my 50s,
 and going through a mid-life crisis. My mid-life crisis has been learning to
