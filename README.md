@@ -32,6 +32,12 @@ Sometimes you just want a grilled cheese sandwich- BUT FANCY!
 
 - [Short-rib Grilled Cheese, rainbow carrot fries, and three dipping sauces.](grilled_cheese/short_rib_grilled_cheese.md)
 
+### [Pizza](pizza/README.md)
+
+I don't like pizza- but I do like making pizza!
+
+- [Personal Pizzas for a Group](pizza/personal_pizza.md)
+
 ### [Quickies](quickies/README.md)
 
 These are simple cooking instructions for some of the ingredients in these recipes.
