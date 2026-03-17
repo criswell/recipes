@@ -24,7 +24,7 @@ to make the roasted garlic.
 * 4 center-cut salmon fillets (about 6 oz each)
 * Salt and Black Pepper
 * 1 tablespoon Neutral Oil (vegetable, canola, or avocado oil) for searing
-* Optional garnish: Sesame seeds, sliced green onions, or fresh herbs
+* Optional garnish: Sesame seeds, sliced green onions, pickled ginger, or fresh herbs
 
 ## Instructions:
 
@@ -47,6 +47,6 @@ to make the roasted garlic.
     Remove from the oven and brush the fillets with another layer of the glaze while they're still hot. Let rest for 2 minutes.
 
 7. **Serve:**<br/>
-    Plate the salmon and drizzle any remaining glaze over the top. Garnish with sesame seeds, sliced green onions, or fresh herbs if desired.
+    Plate the salmon and drizzle any remaining glaze over the top. Garnish with sesame seeds, sliced green onions, pickled ginger, or fresh herbs if desired.
 
 Pro Tip: If you don't have roasted garlic on hand, you can quickly roast a few cloves by wrapping them in foil with a drizzle of olive oil and baking at 400°F for about 20-25 minutes until soft and golden.
