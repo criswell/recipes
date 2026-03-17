@@ -10,14 +10,14 @@ However, not everyone agrees with me. Especially not my family.
 
 So please everyone by letting each person put their own friggin' toppings on.
 
-<br clear="left"/>
-
 You will need enough baking sheets to fit all the pizzas, and an oven large
 enough for them. If you need to stagger cooking the pizzas, I'll leave that for
 you to figure out.
 
 I also have two paths for the dough. You either make your own, or buy from the
 store.
+
+<br clear="left"/>
 
 ## Ingredients List
 
