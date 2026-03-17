@@ -44,6 +44,10 @@ store.
 I'd start with these safe (and boring) options. But feel free to adjust or add
 anything unique or awesome you'd like!
 
+**Pizza Sauce**
+
+See [Pizza Sauces](/quickies/pizza_sauces.md) in my quickies.
+
 ---
 
 ## Step-by-Step Instructions

@@ -42,6 +42,7 @@ I don't like pizza- but I do like making pizza!
 
 These are simple cooking instructions for some of the ingredients in these recipes.
 
+- [Pizza Sauces](quickies/pizza_sauces.md)
 - [Roasted Garlic](quickies/roasted_garlic.md)
 
 ### [Salmon Dishes](salmon/README.md)
