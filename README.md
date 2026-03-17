@@ -32,6 +32,12 @@ Sometimes you just want a grilled cheese sandwich- BUT FANCY!
 
 - [Short-rib Grilled Cheese, rainbow carrot fries, and three dipping sauces.](grilled_cheese/short_rib_grilled_cheese.md)
 
+### [Salmon Dishes](salmon/README.md)
+
+My dad's favorite fish, blasted by the Spice Weasle- BAM!
+
+- [Maple-Soy Glazed Salmon with Roasted Garlic](salmon/maple-soy-glazed-salmon.md)
+
 ### [Shepherd's Pie Variants](shepherds_pie/README.md)
 
 These are my variations on the traditional Shepherd's Pie.

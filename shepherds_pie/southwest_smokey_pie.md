@@ -16,7 +16,7 @@ beans. Throw some chipotle peppers in adobo, and top with Cotija cheese.
 * **The Veggies**: 3/4 cup black beans (rinsed), 3/4 cup corn (frozen or canned), 1/2 cup tomato sauce.
 * **Garnish**: 1/2 cup crumbled Cotija or shredded Pepper Jack cheese.
 
-# Instructions
+## Instructions
 
 1. **Prepare the Mash**: Boil sweet potatoes until tender (15 mins). Drain and mash with sour cream, lime juice, and cilantro.
 2. **Cook the Base**: Brown the meat with the onion and garlic in a skillet. Drain excess fat.
