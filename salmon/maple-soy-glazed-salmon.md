@@ -26,7 +26,7 @@ to make the roasted garlic.
 
 ## Instructions:
 
-1. **Make the Glaze:**
+1. **Make the Glaze:**<br/>
     In a small bowl, whisk together the maple syrup, soy sauce, Kewpie mayo, mashed roasted garlic, rice vinegar, and black pepper until smooth and well combined. Set aside.
 
 2. **Prep the Salmon:**
