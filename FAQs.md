@@ -23,11 +23,11 @@ Short answer: Yes.
 Long answer: Kinda.
 
 I tend to have these weird ideas like "What if we take a Shepherd's Pie but add
-an Asian twist?"
+a Japanese twist?"
 
 I take these ideas, and start researching. I find flavors and alternatives to
 the traditional ingredients that fit the theme I've come up with. Then, once I
-have a solid foundation I sit with an LLM (because I'm a software engineer, and
+have a solid foundation, I sit with an LLM (because I'm a software engineer, and
 when the only tool you have is a hammer, everything looks like a nail) and start
 to formulate a workable recipe from my weird ideas.
 
