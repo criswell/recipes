@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+python3 update_index.py
+git add README.md */README.md 2>/dev/null || true

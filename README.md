@@ -14,8 +14,20 @@ I also have a couple of youtube channels where I do stupid things.
 
 I'm now in my 50s, and going through a mid-life crisis.
 
-My mid-life crisis has been learning to cook fancy. 
+My mid-life crisis has been learning to cook fancy.
 
-But because I love creating things, I've also been designing my own recipes. 
+But because I love creating things, I've also been designing my own recipes.
 
 This repo is where those recipes live.
+
+<br clear="left"/>
+
+<!-- INDEX:START -->
+
+## Recipes
+
+### Shepherds Pie
+
+- [The "Southwest" Smokey Pie.](shepherds_pie/southwest_smokey_pie.md)
+
+<!-- INDEX:END -->
