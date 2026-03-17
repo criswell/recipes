@@ -21,3 +21,5 @@ shiitake mushrooms. Cook the meat with ginger, garlic, and onion.
 ## The Assembly
 
 * Spread the ginger-meat base in a baking dish. Top with the wasabi mash. Sprinkle with furikake or toasted sesame seeds. Bake at 400°F (200°C) for 20-25 minutes until the edges are bubbling.
+
+Pro Tip: If you want a crispier top, you can turn on the broiler for the last 2-3 minutes of cooking- just keep a close eye on it so it doesn't burn!
