@@ -26,6 +26,12 @@ This repo is where those recipes live.
 
 ## Recipes
 
+### [Grilled Cheese Variants](grilled_cheese/README.md)
+
+Sometimes you just want a grilled cheese sandwich- BUT FANCY!
+
+- [Short-rib Grilled Cheese, rainbow carrot fries, and three dipping sauces.](grilled_cheese/short_rib_grilled_cheese.md)
+
 ### [Shepherd's Pie Variants](shepherds_pie/README.md)
 
 These are my variations on the traditional Shepherd's Pie.
