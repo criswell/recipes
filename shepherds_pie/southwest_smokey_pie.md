@@ -11,8 +11,8 @@ beans. Throw some chipotle peppers in adobo, and top with Cotija cheese.
 
 ## Ingredients
 
-* **The Mash*: 1.5 lbs sweet potatoes (peeled and cubed), 2 tbsp sour cream, juice of 1/2 lime, 2 tbsp chopped cilantro, pinch of salt.
-* **The Base*: 3/4 lb ground beef or bison, 1 small onion (diced), 2 cloves garlic (minced), 1 tbsp chipotle peppers in adobo (finely minced), 1 tsp cumin, 1 tsp smoked paprika.
+* **The Mash**: 1.5 lbs sweet potatoes (peeled and cubed), 2 tbsp sour cream, juice of 1/2 lime, 2 tbsp chopped cilantro, pinch of salt.
+* **The Base**: 3/4 lb ground beef or bison, 1 small onion (diced), 2 cloves garlic (minced), 1 tbsp chipotle peppers in adobo (finely minced), 1 tsp cumin, 1 tsp smoked paprika.
 * **The Veggies**: 3/4 cup black beans (rinsed), 3/4 cup corn (frozen or canned), 1/2 cup tomato sauce.
 * **Garnish**: 1/2 cup crumbled Cotija or shredded Pepper Jack cheese.
 
