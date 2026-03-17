@@ -2,6 +2,8 @@
 
 A plant-based powerhouse with the numbing heat of Sichuan peppercorns.
 
+A hypothetical vegetarian take on the Shepherd's Pie with a Chinese twist.
+
 ## Ingredients
 
 * **The Mash**: 1 lb Russet potatoes (peeled and cubed), 1/2 lb cauliflower florets, 2 tbsp white miso paste, 2 tbsp neutral oil, 1/4 cup warm water or unsweetened nut milk.
@@ -17,4 +19,4 @@ A plant-based powerhouse with the numbing heat of Sichuan peppercorns.
 * **Bake**: Pour the tofu mixture into a baking dish. Top with the miso-cauliflower mash.
 * **Finish**: Bake at 400°F (200°C) for 20 minutes. Drizzle generously with crispy chili oil before serving.
 
-Pro Tip: If you want a crispier top, you can turn on the broiler for the last 2–3 minutes of cooking—just keep a close eye on it so it doesn't burn!
+Pro Tip: If you want a crispier top, you can turn on the broiler for the last 2-3 minutes of cooking- just keep a close eye on it so it doesn't burn!

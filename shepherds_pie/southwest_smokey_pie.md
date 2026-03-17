@@ -24,4 +24,4 @@ beans. Throw some chipotle peppers in adobo, and top with Cotija cheese.
 4. **Bake**: Spread the meat mixture into a baking dish. Top with the sweet potato mash and sprinkle the cheese over the top.
 5. **Finish**: Bake at 400°F (200°C) for 25 minutes until the cheese is bubbly and the edges of the sweet potato are slightly caramelized.
 
-Pro Tip: If you want a crispier top, you can turn on the broiler for the last 2–3 minutes of cooking—just keep a close eye on it so it doesn't burn!
+Pro Tip: If you want a crispier top, you can turn on the broiler for the last 2-3 minutes of cooking- just keep a close eye on it so it doesn't burn!

@@ -31,6 +31,11 @@ This repo is where those recipes live.
 These are my variations on the traditional Shepherd's Pie.
 
 - [The "Southwest" Smokey Pie.](shepherds_pie/southwest_smokey_pie.md)
+- [The "Zen" Shepherd's Pie (Wasabi & Ginger)](shepherds_pie/zen_shepherds_pie.md)
 - [The Spicy Tofu "Mapo" Pie](shepherds_pie/spicy_tofu_mapo_pie.md)
 
 <!-- INDEX:END -->
+
+### Q&A
+
+- [FAQ and Q&A](FAQs.md)
