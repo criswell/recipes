@@ -26,7 +26,9 @@ This repo is where those recipes live.
 
 ## Recipes
 
-### Shepherds Pie
+### [Shepherd's Pie Variants](shepherds_pie/README.md)
+
+These are my variations on the traditional Shepherd's Pie.
 
 - [The "Southwest" Smokey Pie.](shepherds_pie/southwest_smokey_pie.md)
 

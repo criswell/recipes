@@ -3,7 +3,7 @@
 
 Walks category subdirectories, extracts recipe titles from markdown files,
 and generates:
-  - A per-category README.md in each category directory
+  - A recipe links section (between markers) in each category README.md
   - An auto-generated index section in the root README.md
 """
 
@@ -12,6 +12,8 @@ from pathlib import Path
 
 INDEX_START = "<!-- INDEX:START -->"
 INDEX_END = "<!-- INDEX:END -->"
+RECIPES_START = "<!-- RECIPES:START -->"
+RECIPES_END = "<!-- RECIPES:END -->"
 
 Recipe = tuple  # (path: Path, title: str)
 
@@ -24,6 +26,44 @@ def extract_title(path: Path) -> str:
             if m:
                 return m.group(1).strip()
     return path.stem.replace("-", " ").replace("_", " ").title()
+
+
+def extract_first_sentence(path: Path) -> str:
+    """Extract the first sentence of body text after the H1 heading."""
+    found_heading = False
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if not found_heading:
+                if re.match(r"^#\s+", line):
+                    found_heading = True
+                continue
+            stripped = line.strip()
+            if not stripped:
+                continue
+            # Skip markdown markers, headings, etc.
+            if stripped.startswith(("#", "<!--", "- ", "* ", ">")):
+                continue
+            # Found body text — extract first sentence
+            m = re.match(r"([^.!?]+[.!?])", stripped)
+            if m:
+                return m.group(1).strip()
+            return stripped
+    return ""
+
+
+def read_category_info(category_dir: Path) -> tuple[str, str]:
+    """Read the display name and first sentence from a category's README.md.
+
+    Returns (display_name, first_sentence). Falls back to directory name
+    if no README.md exists.
+    """
+    readme = category_dir / "README.md"
+    if readme.exists():
+        title = extract_title(readme)
+        sentence = extract_first_sentence(readme)
+        return title, sentence
+    fallback = category_dir.name.replace("-", " ").replace("_", " ").title()
+    return fallback, ""
 
 
 def discover_categories(root: Path) -> dict[str, list[Recipe]]:
@@ -43,19 +83,30 @@ def discover_categories(root: Path) -> dict[str, list[Recipe]]:
     return categories
 
 
-def category_display_name(name: str) -> str:
-    """Convert directory name to display title."""
-    return name.replace("-", " ").replace("_", " ").title()
+def update_category_readme(category_dir: Path, recipes: list[Recipe]) -> None:
+    """Update the recipe links section in a category's README.md."""
+    readme = category_dir / "README.md"
+    if not readme.exists():
+        return
 
-
-def write_category_readme(category_dir: Path, recipes: list[Recipe]) -> None:
-    """Generate a README.md inside a category directory."""
-    name = category_display_name(category_dir.name)
-    lines = [f"# {name}\n"]
+    content = readme.read_text(encoding="utf-8")
+    links = [RECIPES_START, ""]
     for path, title in sorted(recipes, key=lambda r: r[1].lower()):
-        lines.append(f"- [{title}]({path.name})")
-    lines.append("")
-    category_dir.joinpath("README.md").write_text("\n".join(lines), encoding="utf-8")
+        links.append(f"- [{title}]({path.name})")
+    links.extend(["", RECIPES_END])
+    recipe_section = "\n".join(links)
+
+    start = content.find(RECIPES_START)
+    end = content.find(RECIPES_END)
+
+    if start != -1 and end != -1:
+        content = content[:start] + recipe_section + content[end + len(RECIPES_END):]
+    else:
+        if not content.endswith("\n"):
+            content += "\n"
+        content += "\n" + recipe_section + "\n"
+
+    readme.write_text(content, encoding="utf-8")
 
 
 def build_index_section(root: Path, categories: dict[str, list[Recipe]]) -> str:
@@ -64,7 +115,11 @@ def build_index_section(root: Path, categories: dict[str, list[Recipe]]) -> str:
         return ""
     lines = [INDEX_START, "", "## Recipes", ""]
     for cat_name, recipes in sorted(categories.items()):
-        lines.append(f"### {category_display_name(cat_name)}")
+        cat_dir = root / cat_name
+        display_name, first_sentence = read_category_info(cat_dir)
+        lines.append(f"### [{display_name}]({cat_name}/README.md)")
+        if first_sentence:
+            lines.extend(["", first_sentence])
         lines.append("")
         for path, title in sorted(recipes, key=lambda r: r[1].lower()):
             rel = path.relative_to(root)
@@ -87,17 +142,13 @@ def update_root_readme(root: Path, categories: dict[str, list[Recipe]]) -> None:
     end = content.find(INDEX_END)
 
     if start != -1 and end != -1:
-        # Replace existing index
         if index_section:
             content = content[:start] + index_section + content[end + len(INDEX_END):]
         else:
-            # No recipes — remove the index section entirely
-            # Also strip a leading newline if present
             before = content[:start].rstrip("\n")
             after = content[end + len(INDEX_END):]
             content = before + after
     elif index_section:
-        # Append new index
         if not content.endswith("\n"):
             content += "\n"
         content += "\n" + index_section + "\n"
@@ -110,7 +161,7 @@ def main() -> None:
     categories = discover_categories(root)
 
     for cat_name, recipes in categories.items():
-        write_category_readme(root / cat_name, recipes)
+        update_category_readme(root / cat_name, recipes)
 
     update_root_readme(root, categories)
 
