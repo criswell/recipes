@@ -59,6 +59,12 @@ These are my variations on the traditional Shepherd's Pie.
 - [The "Zen" Shepherd's Pie (Wasabi & Ginger)](shepherds_pie/zen_shepherds_pie.md)
 - [The Spicy Tofu "Mapo" Pie](shepherds_pie/spicy_tofu_mapo_pie.md)
 
+### [Spaghetti and Noodles](spaghetti/README.md)
+
+These are my various noodle centric recipes.
+
+- [Spaghetti + Roasted Garlic Meatballs + Butter‑Infused (Low‑Acid) Marinara](spaghetti/spaghetti_roasted_garlic_meatballs_butter_infused_marinara.md)
+
 <!-- INDEX:END -->
 
 ### Q&A
