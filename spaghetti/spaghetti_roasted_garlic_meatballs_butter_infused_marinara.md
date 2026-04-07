@@ -63,7 +63,7 @@ made with a decedant roasted garlic mix that is to die for.
 * 1 lb spaghetti
 * Salt for pasta water (it should taste pleasantly salty)
 * More Parmesan for serving
-    - A fun alternative is some finly grated cotija
+    - A fun alternative is some finely grated cotija
 * Optional “fun for others” at the table: (served separately)
     - torn basil
     - chili flakes
