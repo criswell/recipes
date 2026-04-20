@@ -26,6 +26,12 @@ This repo is where those recipes live.
 
 ## Recipes
 
+### [Cocktails](cocktails/README.md)
+
+I'm not a *huge* drinker.
+
+- [Butterbeer Cocktails](cocktails/butterbeer.md)
+
 ### [Grilled Cheese Variants](grilled_cheese/README.md)
 
 Sometimes you just want a grilled cheese sandwich- BUT FANCY!
